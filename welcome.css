@@ -1,0 +1,21 @@
+.welcome_contain_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    width: 1000px;
+}
+.welcome_contain_image {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.welcome_img {
+    width: 100%;
+    transition: 10s;
+}
+.welcome_img:hover {
+    transform: scale(1.3);
+}
